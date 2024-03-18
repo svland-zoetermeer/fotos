@@ -19,19 +19,20 @@ h2 {
   text-align: center;
 }
 
-button {
-  background-color: #ff8c00;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
+a.link-btn {
+        color: #fff;
+        background: #ed9107;
+        display:inline-block;
+        border: 1px solid #2e6da4;        
+        font: bold 14px Arial, sans-serif;
+        text-decoration: none;
+        border-radius: 2px;
+        padding: 6px 20px;
+    }
+    a.link-btn:hover {
+        background-color: #245582;
+        border-color: #1a3e5b;
+    }
 
 .cancelbtn {
   width: auto;
@@ -73,8 +74,6 @@ span.psw {
 <body>
 
 <h2>SV-Land landelijke bijeenkomst foto's</h2>
-
-<form action=https://www.youtube.com method="post">
   <div class="imgcontainer">
     <img src="svland.jpg" alt="Avatar" class="avatar">
   </div>
@@ -86,7 +85,8 @@ span.psw {
     <label for="psw"><b>Wachtwoord</b></label>
     <input type="password" placeholder="Voer hier uw wachtwoord in" name="psw" required>
         
-    <button type="submit">Login</button>
+	<a href="stop.html" class="link-btn">Login</a>    
+
     <label>
       <input type="checkbox" checked="checked" name="Onthoud Mij"> Onthoud Mij
     </label>
